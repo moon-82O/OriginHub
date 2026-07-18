@@ -30,7 +30,7 @@ Once loaded, the hub will automatically initialize. All features are accessible 
 
 SUPPORT
 
-For issues, bugs, or feature requests, please open an issue on GitHub.
+For issues, bugs, or feature requests, Please report it on the [server](https://discord.gg/vgJ9J5csgJ)
 
 LICENSE
 
