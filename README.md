@@ -16,7 +16,7 @@ INSTALLATION
 
 Copy and paste this into your Roblox executor:
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/OriginHub/Main/refs/heads/main/loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/moon-82O/OriginHub/refs/heads/main/loader.lua"))()
 
 REQUIREMENTS
 
