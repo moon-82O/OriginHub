@@ -1,17 +1,8 @@
---[[
-    Origin Hub - Premium Roblox Hub
-    Version: 1.0.0
-    Author: Origin Team
-    Repository: https://github.com/OriginHub/Main
-]]
-
 local ORIGIN_CONFIG = {
-    Author = "OriginHub",
-    Repository = "Main",
-    Entry = "init.lua",
     Version = "1.0.0",
     Protected = true,
-    Debug = false
+    Debug = false,
+    Server = "https://soon.../origin/"
 }
 
 local function ORIGIN_LOG(message)
@@ -21,12 +12,7 @@ local function ORIGIN_LOG(message)
 end
 
 local function ORIGIN_FETCH()
-    local endpoint = string.format(
-        "https://raw.githubusercontent.com/%s/%s/refs/heads/main/%s",
-        ORIGIN_CONFIG.Author,
-        ORIGIN_CONFIG.Repository,
-        ORIGIN_CONFIG.Entry
-    )
+    local endpoint = ORIGIN_CONFIG.Server .. "init.lua"
     
     ORIGIN_LOG("Fetching from: " .. endpoint)
     
